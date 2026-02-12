@@ -158,7 +158,7 @@ button {
     }
 
     .faq-answer {
-        background: #1e1e1e;
+        background: inherit;
         color: #cccccc;
     }
 
