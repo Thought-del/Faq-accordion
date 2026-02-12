@@ -78,7 +78,7 @@ h1 {
 
 /* === FAQS === */
 .faq-item {
-    margin-block: 1rem;
+    margin-block: 1.5rem;
 }
 
 h2 {
@@ -88,7 +88,7 @@ h2 {
 }
 
 hr {
-    opacity: 0.3;
+    border: 1px solid var(--color-secondary);
 }
 
 img {
@@ -120,11 +120,17 @@ button {
     animation: morphe 1s ease;
 }
 
+/* == FAQ ANSWER */
+.faq-answer {
+    margin-block: 1rem;
+    opacity: 0.6;
+    color: var(--color-text1);
+}
+
 
 /* === ANIMATIONS === */
 @keyframes morphe {
     0% { transform: scale(1.2); }
-    50% { transform: translateY(-3px); }
     100% { transform: rotate(180deg); }
 }
 
